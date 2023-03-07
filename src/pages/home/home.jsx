@@ -1,9 +1,11 @@
 /** @format */
 
+import HomeModul from "../../moduls/home/home";
+
 export default function Home() {
   return (
-    <section>
-      <h1>Home</h1>
-    </section>
+    <>
+      <HomeModul />
+    </>
   );
 }

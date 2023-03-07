@@ -1,0 +1,32 @@
+/** @format */
+
+.ls_container {
+  max-width: 1330px;
+  margin: 0 auto;
+  width: 90%;
+}
+.section_header {
+  box-shadow: 1px 1px 5px grey;
+  padding: 20px 0;
+}
+.section_header .ls_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list_header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.logo_name {
+  color: blue;
+  text-shadow: 1px 1px 10px grey;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 10px;
+  font-family: "Lato", sans-serif;
+  font-family: "Monoton", cursive;
+}
+
+/* modal */

@@ -9,8 +9,8 @@ export default function RoutesApp() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/Login" element={<Login />} />
-      <Route path="/SignUp" element={<SignUp />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/singUp" element={<SignUp />} />
     </Routes>
   );
 }
